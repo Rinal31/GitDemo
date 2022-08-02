@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy.E2EProject.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="validation of navigation bar(failed)">
+    <classes>
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <methods>
+          <include name="basePageNavigationBar"/>
+          <include name="initializeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- validation of navigation bar(failed) -->
+  <test thread-count="5" parallel="tests" name="calidation of title(failed)">
+    <classes>
+      <class name="Academy.E2EProject.ValidateTitle">
+        <methods>
+          <include name="initializeTest"/>
+          <include name="basePageHeaderValidation"/>
+          <include name="tearDown"/>
+          <include name="basePageTitleValidation"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+    </classes>
+  </test> <!-- calidation of title(failed) -->
+  <test thread-count="5" parallel="tests" name="Login to Homepage(failed)">
+    <classes>
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="initializeTest"/>
+          <include name="basePageLoginUsers"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- Login to Homepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

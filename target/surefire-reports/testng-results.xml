@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T21:09:53 IST" name="Suite" finished-at="2022-07-14T21:13:12 IST" duration-ms="198649">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T21:09:53 IST" name="default" finished-at="2022-07-14T21:09:53 IST" duration-ms="39">
+    </test> <!-- default -->
+    <test started-at="2022-07-14T21:09:53 IST" name="validation of navigation bar" finished-at="2022-07-14T21:12:35 IST" duration-ms="162251">
+      <class name="Academy.E2EProject.ValidateNavigationBar">
+        <test-method is-config="true" signature="initializeTest()[pri:0, instance:Academy.E2EProject.ValidateNavigationBar@f31c0c6]" started-at="2022-07-14T21:09:53 IST" name="initializeTest" finished-at="2022-07-14T21:12:35 IST" duration-ms="161922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method signature="basePageNavigationBar()[pri:0, instance:Academy.E2EProject.ValidateNavigationBar@f31c0c6]" started-at="2022-07-14T21:12:35 IST" name="basePageNavigationBar" finished-at="2022-07-14T21:12:35 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationBar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.E2EProject.ValidateNavigationBar@f31c0c6]" started-at="2022-07-14T21:12:35 IST" name="tearDown" finished-at="2022-07-14T21:12:35 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.ValidateNavigationBar -->
+    </test> <!-- validation of navigation bar -->
+    <test started-at="2022-07-14T21:09:53 IST" name="calidation of title" finished-at="2022-07-14T21:12:44 IST" duration-ms="170766">
+      <class name="Academy.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="initializeTest()[pri:0, instance:Academy.E2EProject.ValidateTitle@41394595]" started-at="2022-07-14T21:09:53 IST" name="initializeTest" finished-at="2022-07-14T21:12:42 IST" duration-ms="168643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method signature="basePageATitleValidation()[pri:0, instance:Academy.E2EProject.ValidateTitle@41394595]" started-at="2022-07-14T21:12:42 IST" name="basePageATitleValidation" finished-at="2022-07-14T21:12:42 IST" duration-ms="83" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Academy.E2EProject.ValidateTitle.basePageATitleValidation(ValidateTitle.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageATitleValidation -->
+        <test-method signature="basePageHeaderValidation()[pri:0, instance:Academy.E2EProject.ValidateTitle@41394595]" started-at="2022-07-14T21:12:43 IST" name="basePageHeaderValidation" finished-at="2022-07-14T21:12:43 IST" duration-ms="76" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [AN ACADEMY TO LEARN EVERTYTHING ABOUT TESTING] but found [AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [AN ACADEMY TO LEARN EVERTYTHING ABOUT TESTING] but found [AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Academy.E2EProject.ValidateTitle.basePageHeaderValidation(ValidateTitle.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageHeaderValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.E2EProject.ValidateTitle@41394595]" started-at="2022-07-14T21:12:43 IST" name="tearDown" finished-at="2022-07-14T21:12:44 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.ValidateTitle -->
+    </test> <!-- calidation of title -->
+    <test started-at="2022-07-14T21:09:53 IST" name="Login to Homepage" finished-at="2022-07-14T21:13:12 IST" duration-ms="198648">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method is-config="true" signature="initializeTest()[pri:0, instance:Academy.E2EProject.HomePage@5ef8df1e]" started-at="2022-07-14T21:09:53 IST" name="initializeTest" finished-at="2022-07-14T21:10:06 IST" duration-ms="13166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method signature="basePageLoginUsers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@5ef8df1e]" started-at="2022-07-14T21:10:06 IST" name="basePageLoginUsers" data-provider="getData" finished-at="2022-07-14T21:12:35 IST" duration-ms="148151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageLoginUsers -->
+        <test-method signature="basePageLoginUsers(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@5ef8df1e]" started-at="2022-07-14T21:12:35 IST" name="basePageLoginUsers" data-provider="getData" finished-at="2022-07-14T21:13:12 IST" duration-ms="37179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[783056]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageLoginUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.E2EProject.HomePage@5ef8df1e]" started-at="2022-07-14T21:13:12 IST" name="tearDown" finished-at="2022-07-14T21:13:12 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- Login to Homepage -->
+  </suite> <!-- Suite -->
+</testng-results>
